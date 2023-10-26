@@ -2,7 +2,7 @@
 
 ## Aufgabe 2
 1. pre-commit installieren
-   YourCopyableTextblock      pip install pre-commit
+  ... pip install pre-commit ...
 
 ## Aufgabe 4
 Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.
