@@ -5,6 +5,10 @@
    ```
    pip install pre-commit
    ```
+2. `pre-commit install` ausführen
+   ```
+   pre-commit install
+   ```
 
 ## Aufgabe 4
 Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.
