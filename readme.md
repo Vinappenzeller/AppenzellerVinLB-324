@@ -11,7 +11,6 @@
    ```
 3. Nun kann man im Wurzelverzeichnis des Projekts ein File erstellen `.pre-commit-config.yaml`
 4. Inhalt des Files
-   ```
    repos:
 - repo: https://github.com/ambv/black
   rev: 23.7.0
@@ -50,7 +49,6 @@
       language: system
       pass_filenames: false
       always_run: true
-```
 
 ## Aufgabe 4
 Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.
