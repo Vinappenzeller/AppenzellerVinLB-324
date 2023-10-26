@@ -1,7 +1,7 @@
 # LB 324
 
 ## Aufgabe 2
-1. pre-commit installieren
+1. pre-commit installieren `sdfsf`
    ```
    pip install pre-commit
    ```
