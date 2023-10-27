@@ -14,20 +14,22 @@
     <form method="POST" action="/add_entry">
         <textarea name="content" rows="4" cols="50" placeholder="Write your entry here..."></textarea>
         <br>
+        <input type="text" name="happiness" placeholder="😃 Happiness"> <!-- Hinzufügen des Glückssymbol-Eingabefelds -->
         <button type="submit">Add Entry</button>
     </form>
     <h2>Entries:</h2>
     <ul>
         {% for entry in entries %}
-        <li>{{ entry.timestamp.strftime('%Y-%m-%d %H:%M:%S') }} - {{ entry.content }}</li>
-        {% endfor %}
-    </ul>
+        <li>
+            {{ entry.timestamp.strftime('%Y-%m-%d %H:%M:%S') }} - {{ entry.content }}
+            {% if entry.happiness %} <!-- Überprüfen, ob das Glückssymbol vorhanden ist -->
+
+{{ entry.happiness }} <!-- Glückssymbol anzeigen -->{% endif %}</li>{% endfor %}</ul>
 
     {% else %}
     <h2>Please log in to view your diary:</h2>
     <a href="/login">Login</a>
     {% endif %}
-
 
 </body>
 
